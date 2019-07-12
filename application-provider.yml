@@ -29,5 +29,5 @@ eureka:
     service-url:
      defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: provider-dept-8001     #注册进入eureka的服务的实列名
+    instance-id: mybatis-provider-8001     #注册进入eureka的服务的实列名
     prefer-ip-address: true            #实例名的前缀使用Ip地址
